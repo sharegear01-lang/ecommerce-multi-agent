@@ -9,26 +9,3 @@ PORTFOLIO.md
 # ===== 向量数据库（运行时自动生成）=====
 chroma_db/
 
-# ===== Python =====
-__pycache__/
-*.py[cod]
-*.egg-info/
-dist/
-build/
-
-# ===== IDE / Editor =====
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# ===== OS =====
-.DS_Store
-Thumbs.db
-
-# ===== Claude Code =====
-.claude/
-
-# ===== 环境 =====
-venv/
-.venv/
