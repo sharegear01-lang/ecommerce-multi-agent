@@ -1,0 +1,54 @@
+{
+  "return_policy": {
+    "title": "退换货政策",
+    "window_days": 7,
+    "conditions": [
+      "商品未经使用，保持原包装完整",
+      "不影响二次销售",
+      "附带所有配件、赠品、说明书",
+      "自签收之日起7天内申请"
+    ],
+    "exceptions": ["食品饮料", "个人护理用品", "虚拟商品", "定制商品"],
+    "refund_method": "原路返回，3-5个工作日到账",
+    "shipping_responsibility": {
+      "quality_issue": "商家承担来回运费",
+      "buyer_remorse": "买家承担退货运费"
+    },
+    "process": "在线提退货申请 → 客服审核 → 寄回商品 → 仓库验收 → 退款到账"
+  },
+  "exchange_policy": {
+    "title": "换货政策",
+    "window_days": 15,
+    "conditions": [
+      "商品存在非人为质量问题",
+      "收到商品与页面描述不符",
+      "尺码/规格选择不合适"
+    ],
+    "process": "提交换货申请 → 客服审核通过 → 寄回原商品 → 仓库确认无误 → 发出新商品",
+    "price_difference": "换更高价格商品需补差价，换低价商品退还差价，差价于3个工作日内处理",
+    "timeline": "整个换货流程一般需要5-7个工作日"
+  },
+  "shipping_policy": {
+    "title": "配送政策",
+    "free_shipping_threshold": 99.00,
+    "standard_delivery": "下单后1-2个工作日内发货，配送时间3-5个工作日",
+    "express_delivery": "下单后当日发货，次日送达（额外收费15元）",
+    "coverage": "全国配送（港澳台及新疆西藏等偏远地区配送时间延长2-3天）",
+    "carriers": ["顺丰速运", "中通快递", "圆通速递"]
+  },
+  "warranty_policy": {
+    "title": "保修政策",
+    "electronics": "电子产品享受1年全国联保",
+    "appliances": "家电产品享受2年全国联保",
+    "coverage": "非人为损坏的硬件故障免费维修",
+    "exclusions": ["人为损坏", "自行拆修", "不可抗力导致的损坏"],
+    "process": "联系在线客服 → 描述故障 → 客服确认 → 寄修或预约上门服务",
+    "hotline": "售后服务热线: 400-888-XXXX (工作日9:00-18:00)"
+  },
+  "payment_policy": {
+    "title": "支付方式",
+    "methods": ["微信支付", "支付宝", "银联卡", "信用卡"],
+    "installment": "支持3/6/12期信用卡分期，部分银行可享满减优惠",
+    "invoice": "可开具电子发票或纸质发票，下单时可选择"
+  }
+}

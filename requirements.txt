@@ -1,0 +1,30 @@
+# Core LangChain
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+langgraph>=0.2.0
+
+# LLM - DeepSeek (OpenAI-compatible API)
+langchain-openai>=0.3.0
+
+# Embeddings - local Chinese model
+sentence-transformers>=3.0.0
+langchain-huggingface>=0.2.0
+
+# Vector Store
+langchain-chroma>=0.2.0
+chromadb>=0.5.0
+
+# Web Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+sse-starlette>=2.0.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Utilities
+tiktoken>=0.7.0

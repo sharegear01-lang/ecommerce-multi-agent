@@ -1,0 +1,103 @@
+[
+  {
+    "id": "PROD-001",
+    "name": "小米无线蓝牙耳机 Pro",
+    "category": "电子产品",
+    "brand": "小米",
+    "price": 299.00,
+    "original_price": 399.00,
+    "specs": {
+      "battery_life": "30小时",
+      "connectivity": "蓝牙5.3",
+      "noise_cancelling": "主动降噪",
+      "colors": ["黑色", "白色"],
+      "weight": "45g",
+      "waterproof": "IPX5"
+    },
+    "inventory": 150,
+    "description": "小米旗舰无线耳机，支持主动降噪，30小时超长续航，IPX5防水，适合运动使用。搭载12mm大动圈单元，低音澎湃，人声清晰。支持双设备同时连接，无缝切换。",
+    "promotion": "618大促，满300减50，赠原装保护套一个",
+    "tags": ["耳机", "蓝牙", "降噪", "运动", "性价比"]
+  },
+  {
+    "id": "PROD-002",
+    "name": "华为智能手表 GT4",
+    "category": "电子产品",
+    "brand": "华为",
+    "price": 1499.00,
+    "original_price": 1799.00,
+    "specs": {
+      "screen": "1.43英寸 AMOLED",
+      "battery_life": "14天",
+      "gps": "双频五星定位",
+      "health": ["心率监测", "血氧检测", "睡眠分析", "压力监测"],
+      "waterproof": "5ATM防水",
+      "weight": "48g"
+    },
+    "inventory": 80,
+    "description": "华为旗舰智能手表，14天超长续航，双频GPS精准定位，全面健康监测。支持100+运动模式，智能识别6种运动。内置通话功能，蓝牙接打电话。",
+    "promotion": "限时直降300元，赠运动表带一条",
+    "tags": ["手表", "智能", "运动", "健康", "华为"]
+  },
+  {
+    "id": "PROD-003",
+    "name": "索尼降噪耳机 WH-1000XM5",
+    "category": "电子产品",
+    "brand": "索尼",
+    "price": 2499.00,
+    "original_price": 2999.00,
+    "specs": {
+      "battery_life": "30小时",
+      "connectivity": "蓝牙5.2, 3.5mm有线",
+      "noise_cancelling": "行业领先双芯片主动降噪",
+      "colors": ["黑色", "银色"],
+      "weight": "250g",
+      "audio": "Hi-Res Audio认证, LDAC传输"
+    },
+    "inventory": 45,
+    "description": "索尼旗舰头戴式降噪耳机，业界最强的主动降噪技术，Hi-Res高解析音频认证。8麦克风降噪系统，自适应声音控制，佩戴检测自动暂停。折叠便携设计。",
+    "promotion": "赠送原装收纳盒 + 6期免息分期",
+    "tags": ["耳机", "头戴式", "降噪", "高音质", "索尼"]
+  },
+  {
+    "id": "PROD-004",
+    "name": "戴尔27寸4K显示器 U2723QE",
+    "category": "电脑办公",
+    "brand": "戴尔",
+    "price": 3299.00,
+    "original_price": 3999.00,
+    "specs": {
+      "size": "27英寸",
+      "resolution": "3840x2160 (4K UHD)",
+      "panel": "IPS Black技术",
+      "ports": ["USB-C 90W充电", "HDMI 2.0", "DisplayPort 1.4", "USB 3.2 Hub x4"],
+      "color_accuracy": "Delta E < 2, 98% DCI-P3",
+      "ergonomics": "升降旋转支架, VESA挂装"
+    },
+    "inventory": 30,
+    "description": "戴尔专业级4K显示器，IPS Black技术带来2000:1超高对比度，深邃黑色。USB-C一线连接笔记本同时充电90W。出厂校色Delta E<2，适合设计修图。",
+    "promotion": "企业采购满5000减200，3年上门换修服务",
+    "tags": ["显示器", "4K", "专业", "办公", "设计"]
+  },
+  {
+    "id": "PROD-005",
+    "name": "极米投影仪 H6 4K",
+    "category": "家电",
+    "brand": "极米",
+    "price": 5699.00,
+    "original_price": 6599.00,
+    "specs": {
+      "resolution": "4K UHD (3840x2160)",
+      "brightness": "2200 ANSI流明",
+      "speaker": "哈曼卡顿 2x10W",
+      "os": "Android TV 11",
+      "auto_focus": "支持",
+      "keystone": "全自动梯形校正",
+      "throw_ratio": "1.2-1.5:1"
+    },
+    "inventory": 20,
+    "description": "极米旗舰4K投影仪，2200ANSI流明高亮度白天也能清晰观看，哈曼卡顿双10W音响沉浸式音效。全自动对焦+梯形校正，开机即用。内置Android TV，海量内容随心看。",
+    "promotion": "晒单评价送3D眼镜一副 + 100寸抗光幕布",
+    "tags": ["投影仪", "4K", "家庭影院", "智能", "极米"]
+  }
+]

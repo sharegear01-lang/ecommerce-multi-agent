@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电商多智能体协作系统 (MAS)</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <h1>🛒 电商多智能体协作系统</h1>
+            <span class="subtitle">Multi-Agent System for E-commerce</span>
+            <div class="header-actions">
+                <button id="btnNewSession" class="btn btn-sm">🔄 新会话</button>
+                <button id="btnClearSession" class="btn btn-sm btn-outline">🗑️ 清空</button>
+            </div>
+        </header>
+
+        <!-- Main content -->
+        <div class="main-content">
+            <!-- Chat panel -->
+            <div class="chat-panel">
+                <div class="chat-messages" id="chatMessages">
+                    <div class="welcome-message">
+                        <div class="welcome-icon">🤖</div>
+                        <h3>欢迎使用电商智能助手</h3>
+                        <p>我可以帮您：</p>
+                        <div class="capability-list">
+                            <span class="cap-tag">🔍 商品咨询与推荐</span>
+                            <span class="cap-tag">📦 下单与物流追踪</span>
+                            <span class="cap-tag">🛠️ 退换货与售后</span>
+                        </div>
+                        <p class="hint">试试问： <em>"推荐一款降噪耳机"</em> 或 <em>"我要退货换一个更贵的"</em></p>
+                    </div>
+                </div>
+                <div class="chat-input-area">
+                    <div class="input-wrapper">
+                        <input
+                            type="text"
+                            id="chatInput"
+                            placeholder="输入您的问题..."
+                            autocomplete="off"
+                        />
+                        <button id="btnSend" class="btn btn-primary" title="发送">➤</button>
+                    </div>
+                    <div class="input-hint">
+                        按 Enter 发送 · Shift+Enter 换行
+                    </div>
+                </div>
+            </div>
+
+            <!-- Side panel -->
+            <aside class="side-panel">
+                <!-- State indicator -->
+                <div class="panel-section">
+                    <h3>📊 系统状态</h3>
+                    <div class="state-indicator" id="stateIndicator">
+                        <div class="state-dot idle"></div>
+                        <span class="state-label">IDLE</span>
+                    </div>
+                    <div class="state-info" id="stateInfo">
+                        <div class="info-row">
+                            <span class="info-label">意图:</span>
+                            <span class="info-value" id="intentValue">-</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">会话:</span>
+                            <span class="info-value" id="sessionValue">-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agent trace -->
+                <div class="panel-section">
+                    <h3>🔀 Agent 调用链</h3>
+                    <div class="trace-container" id="traceContainer">
+                        <div class="trace-empty">等待用户输入...</div>
+                    </div>
+                </div>
+
+                <!-- Agent legend -->
+                <div class="panel-section">
+                    <h3>🤖 Agent 角色</h3>
+                    <div class="agent-legend">
+                        <div class="legend-item">
+                            <span class="legend-dot router"></span>
+                            <span>路由Agent（协调者）</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot shopping"></span>
+                            <span>导购Agent</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot order"></span>
+                            <span>订单Agent</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot aftersales"></span>
+                            <span>售后Agent</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
